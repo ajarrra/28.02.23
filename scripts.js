@@ -65,7 +65,9 @@ result.push(exampleArray[i].textContent);
 
 
 
-//НОВАЯ ТЕМА
+//НОВАЯ ТЕМА const константа ( не меняется)
+//для масивой , цикла
+
 
 
 
