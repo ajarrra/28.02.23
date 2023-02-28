@@ -52,6 +52,27 @@ for(let i = 0; i < list.length ; i++){
 }
 
 
+//с index  создать в js массив из списка
+let result = [];
+let exampleArray = document.querySelector("#example li");
+for (let i = 0; i < exampleArray.length; i++){
+result.push(exampleArray[i].textContent);
+}
+
+
+
+
+
+
+
+//НОВАЯ ТЕМА
+
+
+
+
+
+
+
 
 
 
