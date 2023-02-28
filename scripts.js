@@ -30,6 +30,8 @@ exampleBtn.remove();
 
 
 //САМОСТОЯТЕЛЬНАЯ РАБОТА
+
+
 //создать кнопку добавить ее к эл боди и изменить текст кнопку на example . что бы при нажатии оно исчезало 
 let button = document.createElement("button");
 document.body.append(button);
@@ -48,6 +50,7 @@ for(let i = 0; i < list.length ; i++){
  item.textContent = list[i];
  ul.append(item);
 }
+
 
 
 
