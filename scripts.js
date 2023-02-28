@@ -5,7 +5,7 @@ let sayHelloBtn = document.querySelector("#say-hello");  //создаем пер
 //изменить свойсто эл (содержимое, класс , итд)
 sayHelloBtn.textContent = "SAY HELLO";
 sayHelloBtn.className = "btn btn-red" //добавили класс к нопке хотя есть айди
-sayHelloBtn.classList.add("btn" , "btn-red"); //тоже класс создает //remove, toggle тоже методы
+sayHelloBtn.classList.add("btn", "btn-red"); //тоже класс создает //remove, toggle тоже методы
 
 //изменить стили элемента
 sayHelloBtn.style.color = "tomato";
@@ -24,14 +24,22 @@ document.body.append(exampleBtn); //доб на страницу в конце �
 exampleBtn.remove();
 
 //добавление слушателя событий 
-sayHelloBtn.addEventListener( "click" , function(event){  //если нажмем 
-    alert("hello");  //сработает название hello 
-});
+//sayHelloBtn.addEventListener( "click" , function(event){  //если нажмем 
+//  alert("hello");  //сработает название hello 
+//});
 
 
 //САМОСТОЯТЕЛЬНАЯ РАБОТА
 //создать кнопку добавить ее к эл боди и изменить текст кнопку на example 
+let button = document.createElement("button");
+document.body.append(button);
+button.textContent = "example";
+//добавить слушателей событийкот при нажатии удаляет кнопку
+button.addEventListener("click", function () {
+    button.remove();
+})
 
+//создатать ul и добавить к  боди
 
 
 
