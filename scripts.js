@@ -13,7 +13,7 @@ sayHelloBtn.style.fontSize = "20px";
 
 //не изменяемые свойста 
 console.log(sayHelloBtn.clientTop);// показывает сколько пикселей со сначала стр
-console.log(sayHelloBtn.getClientRects()); 
+console.log(sayHelloBtn.getClientRects()); //
 
 //создание эл состоит из двух частей
 let exampleBtn = document.createElement("button");
@@ -24,7 +24,7 @@ document.body.append(exampleBtn); //доб на страницу в конце �
 exampleBtn.remove();
 
 //добавление слушателя событий 
-sayHelloBtn.addEventListener( "click" , function(event){
-    alert("hello");
+sayHelloBtn.addEventListener( "click" , function(event){  //если нажмем 
+    alert("hello");  //сработает название hello 
 });
 
