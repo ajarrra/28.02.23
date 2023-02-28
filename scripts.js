@@ -47,8 +47,8 @@ for(let i = 0; i < list.length ; i++){
  let item = document.createElement("li");
  item.textContent = list[i];
  ul.append(item);
-
 }
+
 
 
 
