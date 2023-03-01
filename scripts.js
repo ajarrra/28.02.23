@@ -42,21 +42,21 @@ button.addEventListener("click", function () {
 })
 
 //создатать ul и добавить к  body и доб 10 li внутри ul , создать ul > li из массива 
-let list = ["apples" , "pears","oranges" , "peaches" ];
+let list = ["apples", "pears", "oranges", "peaches"];
 let ul = document.createElement("ul");
 document.body.append(ul);
-for(let i = 0; i < list.length ; i++){
- let item = document.createElement("li");
- item.textContent = list[i];
- ul.append(item);
+for (let i = 0; i < list.length; i++) {
+    let item = document.createElement("li");
+    item.textContent = list[i];
+    ul.append(item);
 }
 
 
 //с index  создать в js массив из списка
 let result = [];
 let exampleArray = document.querySelector("#example li");
-for (let i = 0; i < exampleArray.length; i++){
-result.push(exampleArray[i].textContent);
+for (let i = 0; i < exampleArray.length; i++) {
+    result.push(exampleArray[i].textContent);
 }
 
 
